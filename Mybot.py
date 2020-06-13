@@ -19,7 +19,7 @@ class Mybot:
     @myBot.message_handler(commands=['start'])
     def start(message):
         teks = mytoken.SAPA + "\n-- admin & developer @Bimo_Wibowo - SMK Taruna Bhakti -- "+"\n" \
-                                "ktik /help untuk mengetahui fitup apa saja yang bisa kamu gunakan"+"\n" \
+                                "ketik /help untuk mengetahui fitur apa saja yang bisa kamu gunakan"+"\n" \
                         "hari ini tanggal "+str(waktusekarang)
         myBot.reply_to(message, teks)
 
